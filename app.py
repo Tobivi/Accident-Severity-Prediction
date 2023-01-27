@@ -103,13 +103,6 @@ def main():
 
 # description about the project and code files            
 
-st.subheader("🧾Description:")
-st.text("""This data set is collected from Addis Ababa Sub-city police departments. 
-The data set has been prepared from manual records of road traffic accidents of the year 2017-20. 
-All the sensitive information has been excluded during data encoding and finally it has 32 features and 12316 instances of the accident.
-Then it is preprocessed and for identification of major causes of the accident by analyzing it using different machine learning classification algorithms.
-""")
-
 
 st.subheader("🧭 Problem Statement:")
 st.text("""The target feature is Accident_severity which is a multi-class variable. 
